@@ -1,4 +1,6 @@
-# About
+---
+title: GitRuler
+---
 
 GitRuler provides exercises with continual feedback to students when they successfully use git to complete them. It allows students to explore and learn git and can be used to assess their performance.
 
