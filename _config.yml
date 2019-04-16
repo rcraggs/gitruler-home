@@ -2,3 +2,8 @@ theme: jekyll-theme-cayman
 title: GitRuler
 description: A tool to successfully teach git
 google_analytics: UA-138402098-1
+show_downloads: true
+github:
+  repository_url: https://github.com/rcraggs/gitruler
+  zip_url: https://github.com/rcraggs/gitruler/releases/latest
+  jar_url: https://github.com/rcraggs/gitruler/releases/latest
