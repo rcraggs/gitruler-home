@@ -1,4 +1,4 @@
-## Show me
+# Show me
 
 Learners clone a repository that contains instructions for an exercise:
 
@@ -32,4 +32,14 @@ GitRuler will given instant feedback on whether they have completed each step:
 
 Oh, they didn't give the correct message when committing the file. Hopefully they've learned now.
 
+# Student Testimonials
 
+**82%** students prefer GitRuler to other similar undergraduate teaching[^1]
+**88%** students learn better from GitRuler than other git tutorials
+
+- _"I find this method of learning git to be fantastic"_
+- _"It's a good learning tool. Fairly easy to use once you get the hang of it"_
+- _"Gitruler was useful as it showed what needed to be done and gave instant feedback in regards to whether it was completed satisfactorily"_
+
+
+[^1]: A survey of 17 students using GitRuler as part of an undergraduate course.
