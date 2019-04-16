@@ -25,7 +25,7 @@ Learners clone a repository that contains instructions for an exercise:
 The student tries to complete the exercise
 
 ```bash
-echo "updates" >> files/edit-me.txt
+echo "updated" >> files/edit-me.txt
 git add files/edit-me.txt
 git commit -m "Change file"
 git log files/animals.txt
