@@ -1,3 +1,7 @@
+# About
+
+GitRuler provides exercises with continual feedback to students when they successfully use git to complete them. It allows students to explore and learn git and can be used to assess their performance.
+
 # Show me
 
 Learners clone a repository that contains instructions for an exercise:
