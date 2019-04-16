@@ -1,35 +1,35 @@
-## GitRuler
+## Show me
 
-Here is where information on GitRuler will go.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Learners clone a repository that contains instructions for an exercise:
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Commit a change to a file
 
-- Bulleted
-- List
+1. Add the text "updated" to the bottom of `files/edit-me.txt`
+2. Commit that update with the messages "Add updated to edit-me.txt"
 
-1. Numbered
-2. List
+# Tag a commit
 
-**Bold** and _Italic_ and `Code` text
+3. Find the id of the commit that added the text "Nelly" to the `files/animals.txt`
+4. Tag that commit with the tag name "elephant"
 
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The student tries to complete the exercise
 
-### Jekyll Themes
+```bash
+echo "updates" >> files/edit-me.txt
+git add files/edit-me.txt
+git commit -m "Change file"
+git log files/animals.txt
+git tag elephant 26112fa05
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rcraggs/gitruler-home/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+GitRuler will given instant feedback on whether they have completed each step:
 
-### Support or Contact
+![](images/gr-simple-output-example.png)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Oh, they didn't give the correct message when committing the file. Hopefully they've learned now.
+
+
