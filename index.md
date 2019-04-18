@@ -38,6 +38,16 @@ GitRuler will given instant feedback on whether they have completed each step:
 
 Oh, they didn't give the correct message when committing the file. Hopefully they've learned now.
 
+## A video explanation
+
+<div class="embed-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3L1D76YyFIk" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
 # Try it
 
 1. Download `gitruler.jar` from our [Github releases page](https://github.com/rcraggs/gitruler/releases/latest). Save this somewhere you'll remember (e.g. a `home` or `bin` directory).
